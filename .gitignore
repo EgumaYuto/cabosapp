@@ -1,0 +1,66 @@
+# common
+.DS_Store
+/bin
+build/
+target/
+work/
+tmp/
+temp/
+log/
+*.lck
+*.log
+*.swp
+.cvsignore
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+/.idea/*
+!/.idea/inspectionProfiles
+!/.idea/codeStyleSettings.xml
+!/.idea/misc.xml
+!/.idea/saveactions_settings.xml
+/*.iml
+/out
+
+# Java
+classes/
+*.class
+
+# Gradle
+.gradle/
+/gradle-app.setting
+/gradle/launch4j/mac
+/gradle/launch4j/win
+
+# Middleware
+localdb/
+localap/
+etc/introdb
+etc/testdb
+
+# DBFlute
+latest-data.zip
+/dbflute_jflutedb
+/dbflute_decodb
+/dbflute_hakibadb
+/dbflute_testdb
+/dbflute_maihamadb
+/dbflute-intro.jar
+/dbflute-intro.war
+trial_config.ignored
+
+# node
+node_modules/
+.sass-cache/
+.tmp/
+dist/
+
+# Exceptions
+!src/main/java/org/dbflute/intro/app/web/log/
+!src/test/java/org/dbflute/intro/app/web/log/
+!/src/main/java/org/dbflute/intro/app/logic/log/
+
